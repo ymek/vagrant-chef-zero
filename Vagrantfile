@@ -1,4 +1,3 @@
-Vagrant.require_plugin "vagrant-chef-zero"
 #Vagrant.require_plugin "vagrant-berkshelf"
 
 Vagrant.configure("2") do |config|

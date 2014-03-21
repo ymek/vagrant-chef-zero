@@ -12,3 +12,7 @@ group :development do
   gem "debugger"
   gem "vagrant-berkshelf", ">= 1.3.3"
 end
+
+group :plugins do
+  gem 'vagrant-chef-zero', path: '.'
+end
