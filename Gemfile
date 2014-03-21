@@ -10,7 +10,6 @@ group :development do
   # Vagrant environment itself using `vagrant plugin`.
   gem "vagrant", git: "git://github.com/mitchellh/vagrant.git", tag: "v1.5.1"
   gem "debugger"
-  gem "vagrant-berkshelf", ">= 1.3.3"
 end
 
 group :plugins do

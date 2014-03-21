@@ -61,7 +61,7 @@ Check out the included [Vagrantfile](https://github.com/andrewgross/vagrant-chef
 
 ### Cookbooks
 
-These are uploaded via the `Ridley` gem.  It is the same backend that `Berkshelf` uses, though I am sure my usage is not as complete.  It expects a path to a `cookbooks/` directory, or an array of paths to individual cookbooks.  If you omit this field, you can have `Berkshelf` upload cookbooks as usual (It will find the Chef-Zero URL automatically).
+These are uploaded via the `Ridley` gem.  It is the same backend that `Berkshelf` uses, though I am sure my usage is not as complete.  It expects a path to a `cookbooks/` directory, or an array of paths to individual cookbooks.
 
 ### JSON vs `.rb`
 
