@@ -190,7 +190,9 @@ module VagrantPlugins
                                client_name: @client_name,
                                client_key: @client_key,
                                retries: 0,
-                               retry_interval: 0)
+                               retry_interval: 0.0,
+                               ssl: false,
+                               proxy: {})
           end
           @conn
         end
