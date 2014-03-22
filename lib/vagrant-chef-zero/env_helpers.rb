@@ -25,6 +25,12 @@ module VagrantPlugins
           client_key = provisioner.config.validation_key_path ||= nil
           dict = { host: host, client_name: client_name, client_key: client_key }
         end
+        puts '*' * 100
+        puts '*' * 100
+        puts dict
+        puts '*' * 100
+        puts '*' * 100
+
         dict
       end
 
