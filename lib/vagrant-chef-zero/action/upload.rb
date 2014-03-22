@@ -189,7 +189,8 @@ module VagrantPlugins
             @conn = Ridley.new(server_url: @url,
                                client_name: @client_name,
                                client_key: @client_key,
-                               retries: 0)
+                               retries: 0,
+                               retry_interval: 0)
           end
           @conn
         end
