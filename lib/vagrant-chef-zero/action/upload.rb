@@ -192,7 +192,7 @@ module VagrantPlugins
                                retries: 0,
                                retry_interval: 0.0,
                                ssl: false,
-                               proxy: {})
+                               proxy: nil)
           end
           @conn
         end
