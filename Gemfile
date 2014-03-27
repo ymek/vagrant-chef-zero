@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'ridley', git: 'git://github.com/ymek/ridley.git'
 group :development do
   # We depend on Vagrant for development, but we don't add it as a
   # gem dependency because we expect to be installed within the
